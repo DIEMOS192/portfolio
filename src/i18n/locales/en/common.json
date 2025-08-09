@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "I'm a passionate developer creating amazing digital experiences.",
+    "ctaWork": "View My Work",
+    "ctaContact": "Contact Me"
+  },
+  "features": {
+    "fast_modern_title": "Fast & Modern",
+    "fast_modern_desc": "Built with React, TypeScript, and Tailwind CSS for optimal performance.",
+    "responsive_title": "Responsive Design",
+    "responsive_desc": "Looks great on all devices with mobile-first responsive design.",
+    "customizable_title": "Easy to Customize",
+    "customizable_desc": "Well-structured components that are easy to modify and extend."
+  },
+  "other":{
+  },
+  "personal": {
+    "name":"Omar Tarek"
+  },
+  "contanct": {
+    "email" : "omertarek131@gmail.com",
+    "phone" : "01129175363",
+    "github" :"https://github.com/DIEMOS192",
+    "linkedin" :"https://www.linkedin.com/in/omartarek192/"
+  }
+}

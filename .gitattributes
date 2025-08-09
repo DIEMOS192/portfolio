@@ -1,0 +1,43 @@
+## Normalize line endings & diff behavior
+* text=auto
+
+# Force LF for source / config files (avoid CRLF churn in diffs)
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.config.* text eol=lf
+*.lock text eol=lf
+bun.lock text eol=lf
+
+# Images / binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+
+# SVGs stay text for diff friendliness
+*.svg text eol=lf
+
+# Prevent linguist treating build artifacts (if any later) as source
+dist/** linguist-vendored
+
+# Explicit diff drivers (optional examples)
+*.lock -diff
+*.pdf -diff

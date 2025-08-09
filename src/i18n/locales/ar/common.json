@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "نبذة عني",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "contact": "تواصل",
+    "resume": "السيرة الذاتية"
+  },
+  "hero": {
+    "title": "مرحباً بك في معرض أعمالي",
+    "subtitle": "أنا مطور شغوف بصناعة تجارب رقمية مميزة.",
+    "ctaWork": "شاهد أعمالي",
+    "ctaContact": "تواصل معي"
+  },
+  "features": {
+    "fast_modern_title": "حديث وسريع",
+    "fast_modern_desc": "مبني بـ React و TypeScript و Tailwind لتحقيق أفضل أداء.",
+    "responsive_title": "تصميم متجاوب",
+    "responsive_desc": "يبدو رائعاً على جميع الأجهزة بتصميم موجه للجوال أولاً.",
+    "customizable_title": "سهل التخصيص",
+    "customizable_desc": "مكونات منظمة يسهل تعديلها وتطويرها."
+  },
+  "other":{
+  },
+    "personal": {
+        "name": "عمر طارق"
+    },
+    "contact": {
+        "email" : "omertarek131@gmail.com",
+        "phone" : "01129175363",
+        "github" :"https://github.com/DIEMOS192",
+        "linkedin" :"https://www.linkedin.com/in/omartarek192/"
+    }
+}
