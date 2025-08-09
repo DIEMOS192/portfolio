@@ -11,8 +11,8 @@ export interface Project {
 
 export interface Skill {
   name: string;
-  level: number; // 1-5 or 1-100
-  category: "frontend" | "backend" | "tools" | "design";
+  iconClass: string; // Font Awesome CSS class (e.g., "fab fa-html5")
+  category?: string; // optional grouping if needed later
 }
 
 export interface Experience {

@@ -1,4 +1,3 @@
-import React from "react";
 import DarkModeToggle from "./DarkModeToggle";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";

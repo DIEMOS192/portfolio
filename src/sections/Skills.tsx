@@ -1,8 +1,7 @@
 import { skills } from "../data";
 import type { Skill } from "../types";
 
-// SkillsSection: Visual representation of core skills.
-// TODO: Adjust skill levels / categories in src/data/skills.ts to reflect your real proficiency.
+// Font Awesome icon-based skills grid
 export default function SkillsSection() {
   return (
     <section id="skills" className="py-16 bg-white dark:bg-gray-800">
@@ -10,26 +9,19 @@ export default function SkillsSection() {
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-10 text-center">
           Skills
         </h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {skills.map((s: Skill) => (
             <div
               key={s.name}
-              className="p-4 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700"
+              className="flex flex-col items-center gap-2 p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 hover:shadow transition"
             >
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-medium text-gray-800 dark:text-gray-200">
-                  {s.name}
-                </span>
-                <span className="text-sm text-gray-500 dark:text-gray-400">
-                  {s.level}%
-                </span>
-              </div>
-              <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded">
-                <div
-                  className="h-full bg-blue-600 dark:bg-blue-500 rounded"
-                  style={{ width: `${s.level}%` }}
-                />
-              </div>
+              <i
+                className={`${s.iconClass} text-4xl text-blue-600 dark:text-blue-400`}
+                aria-hidden="true"
+              />
+              <span className="text-sm font-medium text-gray-800 dark:text-gray-200 text-center">
+                {s.name}
+              </span>
             </div>
           ))}
         </div>
