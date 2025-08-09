@@ -12,8 +12,8 @@ export default function ProjectsSection() {
           Projects
         </h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((p: Project) => (
-            <Card key={p.id} title={p.title} description={p.description} />
+          {projects.map((project: Project) => (
+            <Card key={project.id} {...project} />
           ))}
         </div>
       </div>
