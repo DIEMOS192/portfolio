@@ -1,4 +1,8 @@
 {
+  "personal": {
+    "name": "Omar Tarek",
+    "city": "Pyramid Gardens, Giza"
+  },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -13,6 +17,20 @@
     "ctaWork": "View My Work",
     "ctaContact": "Contact Me"
   },
+  "about": {
+    "heading": "About Me",
+    "heading2": "Education",
+    "description": "Passionate front-end developer with a knack for creating intuitive, localized, and user-friendly web applications.",
+    "specialization": "I specialize in building responsive interfaces using React and Typescript, Tailwind CSS and other modern technologies.",
+    "experience": "Experienced with langs like C++, Python, SQL, and Java.",
+    "learning": "Always eager to learn and adapt to new challenges in the ever-evolving tech landscape.",
+    "education": {
+      "Institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
+      "Year": "4th Year",
+      "dept": "Information Technology",
+      "GPA": "3.26"
+    }
+  },
   "features": {
     "fast_modern_title": "Fast & Modern",
     "fast_modern_desc": "Built with React, TypeScript, and Tailwind CSS for optimal performance.",
@@ -21,15 +39,29 @@
     "customizable_title": "Easy to Customize",
     "customizable_desc": "Well-structured components that are easy to modify and extend."
   },
-  "other":{
+  "contact": {
+    "email": "omertarek131@gmail.com",
+    "phone": "01129175363",
+    "location": "Giza, Egypt",
+    "github": "https://github.com/DIEMOS192",
+    "linkedin": "https://www.linkedin.com/in/omartarek192/"
   },
-  "personal": {
-    "name":"Omar Tarek"
+  "contactSection": {
+    "heading": "Get In Touch",
+    "blurb": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, my inbox is always open.",
+    "cta": "Contact Me"
   },
-  "contanct": {
-    "email" : "omertarek131@gmail.com",
-    "phone" : "01129175363",
-    "github" :"https://github.com/DIEMOS192",
-    "linkedin" :"https://www.linkedin.com/in/omartarek192/"
-  }
+  "footer": {
+    "description": "A passionate developer creating modern web experiences.",
+    "quickLinks": "Quick Links",
+    "contactHeading": "Contact Info",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "title": "Omar Tarek | Portfolio",
+    "description": "Portfolio showcasing projects, skills, and experience of front-end developer Omar Tarek."
+  },
+  "other": {}
 }

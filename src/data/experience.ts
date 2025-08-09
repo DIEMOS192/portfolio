@@ -1,5 +1,9 @@
 import type { Experience } from "../types";
 
+// EXPERIENCE DATA
+// TODO: Replace with your real work / project experience.
+// description: each array item is a bullet point (keep concise, achievement-focused).
+
 export const experience: Experience[] = [
   {
     id: "1",

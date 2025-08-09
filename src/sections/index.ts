@@ -1,6 +1,8 @@
-// Page sections exports
-// export { default as Hero } from './Hero';
-// export { default as About } from './About';
-// export { default as Projects } from './Projects';
-// export { default as Skills } from './Skills';
-// export { default as Contact } from './Contact';
+// Section barrel exports
+// Replace placeholder components' content inside each file.
+export { default as HeroSection } from "./Hero";
+export { default as AboutSection } from "./About";
+export { default as ProjectsSection } from "./Projects";
+export { default as SkillsSection } from "./Skills";
+export { default as ContactSection } from "./Contact";
+export { default as FeaturesSection } from "./Features";

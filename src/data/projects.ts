@@ -1,5 +1,16 @@
 import type { Project } from "../types";
 
+// PROJECTS DATA
+// TODO: Replace the sample projects below with your real projects.
+// Fields:
+//  - id: unique string
+//  - title: project name
+//  - description: short 1-2 sentence summary
+//  - technologies: array of key tech strings
+//  - image: path under /public/images (add your image files there)
+//  - liveUrl: production / demo link
+//  - githubUrl: repository link
+
 export const projects: Project[] = [
   {
     id: "1",
@@ -21,5 +32,5 @@ export const projects: Project[] = [
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/username/project",
   },
-  // Add more projects as needed
+  // TODO: Add more project objects as needed
 ];

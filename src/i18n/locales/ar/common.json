@@ -1,4 +1,5 @@
 {
+  "personal": { "name": "عمر طارق" },
   "nav": {
     "home": "الرئيسية",
     "about": "نبذة عني",
@@ -13,6 +14,18 @@
     "ctaWork": "شاهد أعمالي",
     "ctaContact": "تواصل معي"
   },
+  "about": {
+    "description": "مطور واجهات أمامية شغوف بإنشاء تطبيقات ويب بديهية ومحلية وسهلة الاستخدام.",
+    "specialization": "أتميز في بناء واجهات متجاوبة باستخدام React و TypeScript و Tailwind CSS وتقنيات حديثة أخرى.",
+    "experience": "لدي خبرة مع لغات مثل ++C و Python و SQL و Java.",
+    "learning": "دائمًا متحمس لتعلم والتكيف مع التحديات الجديدة في عالم التقنية المتطور.",
+    "education": {
+      "Institution": "كلية الحاسبات والذكاء الاصطناعي - جامعة القاهرة",
+      "Year": "السنة الرابعة",
+      "dept": "تكنولوجيا المعلومات",
+      "GPA": "3.26"
+    }
+  },
   "features": {
     "fast_modern_title": "حديث وسريع",
     "fast_modern_desc": "مبني بـ React و TypeScript و Tailwind لتحقيق أفضل أداء.",
@@ -21,15 +34,29 @@
     "customizable_title": "سهل التخصيص",
     "customizable_desc": "مكونات منظمة يسهل تعديلها وتطويرها."
   },
-  "other":{
+  "contact": {
+    "email": "omertarek131@gmail.com",
+    "phone": "01129175363",
+    "location": "الجيزة، مصر",
+    "github": "https://github.com/DIEMOS192",
+    "linkedin": "https://www.linkedin.com/in/omartarek192/"
   },
-    "personal": {
-        "name": "عمر طارق"
-    },
-    "contact": {
-        "email" : "omertarek131@gmail.com",
-        "phone" : "01129175363",
-        "github" :"https://github.com/DIEMOS192",
-        "linkedin" :"https://www.linkedin.com/in/omartarek192/"
-    }
+  "contactSection": {
+    "heading": "تواصل معي",
+    "blurb": "أنا متاح حالياً لفرص جديدة. سواء كان لديك سؤال أو ترغب فقط بالتحية، بريدي مفتوح دائماً.",
+    "cta": "راسلني"
+  },
+  "footer": {
+    "description": "مطور شغوف يصنع تجارب ويب حديثة.",
+    "quickLinks": "روابط سريعة",
+    "contactHeading": "معلومات التواصل",
+    "phoneLabel": "هاتف",
+    "locationLabel": "الموقع",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "meta": {
+    "title": "عمر طارق | معرض الأعمال",
+    "description": "معرض أعمال يوضح المشاريع والمهارات والخبرة للمطور الواجهات الأمامية عمر طارق."
+  },
+  "other": {}
 }

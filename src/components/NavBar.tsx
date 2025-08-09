@@ -2,6 +2,7 @@ import React from "react";
 import DarkModeToggle from "./DarkModeToggle";
 import { useTranslation } from "react-i18next";
 import i18n from "i18next";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const { t } = useTranslation("common");
@@ -16,44 +17,78 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-              {t("hero.title").split(" ")[0] || "Portfolio"}
-            </h1>
+            <Link
+              to="/"
+              className="text-2xl font-bold text-gray-900 dark:text-white"
+            >
+              {t("personal.name")}
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8 rtl:space-x-reverse">
-              <a
-                href="#home"
-                className="text-gray-900 dark:text-white hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-900 dark:text-white hover:text-blue-600"
+                  }`
+                }
               >
                 {t("nav.home")}
-              </a>
-              <a
-                href="#about"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+              </NavLink>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-600 dark:text-gray-300 hover:text-blue-600"
+                  }`
+                }
               >
                 {t("nav.about")}
-              </a>
-              <a
-                href="#projects"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+              </NavLink>
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-600 dark:text-gray-300 hover:text-blue-600"
+                  }`
+                }
               >
                 {t("nav.projects")}
-              </a>
-              <a
-                href="#skills"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+              </NavLink>
+              <NavLink
+                to="/skills"
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-600 dark:text-gray-300 hover:text-blue-600"
+                  }`
+                }
               >
                 {t("nav.skills")}
-              </a>
-              <a
-                href="#contact"
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+              </NavLink>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  `px-3 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? "text-blue-600 dark:text-blue-400"
+                      : "text-gray-600 dark:text-gray-300 hover:text-blue-600"
+                  }`
+                }
               >
                 {t("nav.contact")}
-              </a>
+              </NavLink>
               <a
                 href="My Resume.pdf"
                 target="_blank"
