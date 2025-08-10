@@ -12,17 +12,17 @@
     "resume": "Resume"
   },
   "hero": {
-    "title": "Welcome to My Portfolio",
-    "subtitle": "I'm a passionate developer creating amazing digital experiences.",
+    "title": "Omar Tarek",
+    "subtitle": "Front-End Developer focused on React, with experience in backend development using Django, Laravel, Spring Boot, and other technologies.",
     "ctaWork": "View My Work",
     "ctaContact": "Contact Me"
   },
   "about": {
     "heading": "About Me",
     "heading2": "Education",
-    "description": "Passionate front-end developer with a knack for creating intuitive, localized, and user-friendly web applications.",
-    "specialization": "I specialize in building responsive interfaces using React and Typescript, Tailwind CSS and other modern technologies.",
-    "experience": "Experienced with langs like C++, Python, SQL, and Java.",
+    "description": "Full-stack developer with experience in both frontend and backend technologies, passionate about creating efficient web applications and systems.",
+    "specialization": "I specialize in building modern web applications using React, TypeScript, Django, Spring Boot, and database management systems.",
+    "experience": "Experienced with languages including Java, Python, C++, JavaScript/TypeScript, and SQL. Proficient in frameworks like Django, Spring Boot, and modern frontend technologies.",
     "learning": "Always eager to learn and adapt to new challenges in the ever-evolving tech landscape.",
     "education": {
       "Institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
@@ -32,12 +32,12 @@
     }
   },
   "features": {
-    "fast_modern_title": "Fast & Modern",
-    "fast_modern_desc": "Built with React, TypeScript, and Tailwind CSS for optimal performance.",
-    "responsive_title": "Responsive Design",
-    "responsive_desc": "Looks great on all devices with mobile-first responsive design.",
-    "customizable_title": "Easy to Customize",
-    "customizable_desc": "Well-structured components that are easy to modify and extend."
+    "fast_modern_title": "Full-Stack Development",
+    "fast_modern_desc": "Experienced in both frontend (React, TypeScript) and backend (Django, Spring Boot) technologies.",
+    "responsive_title": "Database Management",
+    "responsive_desc": "Proficient in SQL, SQLite, H2, and database design for efficient data management.",
+    "customizable_title": "Modern Technologies",
+    "customizable_desc": "Leveraging cutting-edge tools and frameworks to build scalable applications."
   },
   "contact": {
     "email": "omertarek131@gmail.com",
@@ -52,7 +52,7 @@
     "cta": "Contact Me"
   },
   "footer": {
-    "description": "A passionate developer creating modern web experiences.",
+    "description": "Full-stack developer passionate about creating modern web applications and backend systems.",
     "quickLinks": "Quick Links",
     "contactHeading": "Contact Info",
     "phoneLabel": "Phone",
@@ -60,8 +60,8 @@
     "rights": "All rights reserved."
   },
   "meta": {
-    "title": "Omar Tarek | Portfolio",
-    "description": "Portfolio showcasing projects, skills, and experience of front-end developer Omar Tarek."
+    "title": "Omar Tarek | Full-Stack Developer Portfolio",
+    "description": "Portfolio showcasing projects, skills, and experience of full-stack developer Omar Tarek. Specialized in React, Django, Spring Boot, and modern web technologies."
   },
   "other": {}
 }

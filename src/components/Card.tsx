@@ -65,7 +65,7 @@ const Card: React.FC<CardProps> = ({
         </div>
 
         <div className="flex gap-3 mt-6">
-          {liveUrl && liveUrl !== "https://example.com" && (
+          {liveUrl && (
             <a
               href={liveUrl}
               target="_blank"

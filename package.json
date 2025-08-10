@@ -1,7 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "omar-tarek-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Full-stack developer portfolio showcasing projects and skills",
+  "author": "Omar Tarek",
   "type": "module",
   "scripts": {
     "dev": "vite",

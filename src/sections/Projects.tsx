@@ -2,8 +2,7 @@ import { projects } from "../data";
 import { Card } from "../components";
 import type { Project } from "../types";
 
-// ProjectsSection: Showcases selected work.
-// TODO: Customize project data in src/data/projects.ts (replace example entries, add images under public/images/).
+// ProjectsSection: Showcases Omar Tarek's portfolio projects.
 export default function ProjectsSection() {
   return (
     <section id="projects" className="py-16 bg-gray-50 dark:bg-gray-900">

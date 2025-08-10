@@ -1,29 +1,27 @@
-// FeaturesSection: Highlights value propositions / key qualities.
-// Extracted from duplicated content in previous App.tsx for clarity.
-// TODO: Adjust feature titles & descriptions to match your personal brand.
+
 const features = [
   {
     iconBg: "bg-blue-100 dark:bg-blue-900",
     iconColor: "text-blue-600 dark:text-blue-400",
-    title: "Fast & Modern",
-    desc: "Built with modern tooling (React, TypeScript, Tailwind) focusing on performance.",
-    svgPath: "M13 10V3L4 14h7v7l9-11h-7z",
+    title: "Full-Stack Development",
+    desc: "Experienced in both frontend (React, TypeScript) and backend (Django, Spring Boot) technologies.",
+    svgPath: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
   },
   {
     iconBg: "bg-green-100 dark:bg-green-900",
     iconColor: "text-green-600 dark:text-green-400",
-    title: "Responsive Design",
-    desc: "Mobile-first layouts that adapt beautifully to any screen size.",
+    title: "Database Management",
+    desc: "Proficient in SQL, SQLite, H2, and SQL Server with experience in ETL processes and data warehousing.",
     svgPath:
-      "M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z",
+      "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4",
   },
   {
     iconBg: "bg-purple-100 dark:bg-purple-900",
     iconColor: "text-purple-600 dark:text-purple-400",
-    title: "Easy to Customize",
-    desc: "Clean component structure makes extending the site straightforward.",
+    title: "System Design",
+    desc: "Building scalable applications with multithreading, API design, and modern software architecture patterns.",
     svgPath:
-      "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v14a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v14a4 4 0 004 4h4a2 2 0 002-2V5z",
+      "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
   },
 ];
 
@@ -32,12 +30,11 @@ export default function FeaturesSection() {
     <section className="py-16 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-          Key Features
+          Development Expertise
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-          {/* TODO: Refine this summary to reflect your value proposition. */}A
-          solid starting point you can tailor with your unique projects, skills,
-          and experience.
+          Passionate about creating efficient, scalable solutions across the
+          full technology stack.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((f) => (
