@@ -27,7 +27,7 @@ export const projects: Project[] = [
     description: "A personal portfolio website built with React.",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     image: "/images/My-Portfolio.png",
-    liveUrl: undefined, // This current portfolio
+    liveUrl: "https://omar-tarek-portfolio-five.vercel.app/", 
     githubUrl: "https://github.com/DIEMOS192/My-Portfolio",
   },
   {
