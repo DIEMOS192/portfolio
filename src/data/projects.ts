@@ -1,16 +1,5 @@
 import type { Project } from "../types";
 
-// PROJECTS DATA
-// Omar Tarek's Portfolio Projects
-// Fields:
-//  - id: unique string
-//  - title: project name
-//  - description: short 1-2 sentence summary
-//  - technologies: array of key tech strings
-//  - image: path under /public/images (add your image files there)
-//  - liveUrl: production / demo link (null if not deployed)
-//  - githubUrl: repository link
-
 export const projects: Project[] = [
   {
     id: "1",

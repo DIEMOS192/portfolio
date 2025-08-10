@@ -1,8 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-// AboutSection
-// Organized presentation of bio & education using i18n keys under common.about
-// Edit translations in: src/i18n/locales/<lang>/common.json
 export default function AboutSection() {
   const { t } = useTranslation("common");
 
@@ -13,15 +10,20 @@ export default function AboutSection() {
           {t("about.heading")}
         </h2>
 
-        <div className="space-y-5 text-lg leading-relaxed text-gray-600 dark:text-gray-300">
-          <p>{t("about.description")}</p>
-          <p>{t("about.specialization")}</p>
-          <p>{t("about.experience")}</p>
-          <p>{t("about.learning")}</p>
+        <div className="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
+          <span>{t("about.description")}</span>
+          <br />
+          <span>{t("about.specialization")}</span>
+          <br />
+          <span>{t("about.experience")}</span>
+          <br />
+          <span>{t("about.prog")}</span>
+          <br />
+          <span>{t("about.learning")}</span>
         </div>
 
         <div className="mt-10">
-          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
             {t("about.heading2")}
           </h3>
           <ul className="space-y-2 text-gray-700 dark:text-gray-300">
@@ -33,14 +35,13 @@ export default function AboutSection() {
             </li>
             <li>
               <span className="font-medium">
-                {t("about.education.YearLabel", { defaultValue: "Year" })}:{" "}
+                {t("about.education.YearLabel")}:
               </span>
               {t("about.education.Year")}
             </li>
             <li>
               <span className="font-medium">
-                {t("about.education.DeptLabel", { defaultValue: "Department" })}
-                :{" "}
+                {t("about.education.DeptLabel")}:
               </span>
               {t("about.education.dept")}
             </li>

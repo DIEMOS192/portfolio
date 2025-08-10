@@ -38,14 +38,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* Brand / Description */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">{t("personal.name")}</h3>
             <p className="text-gray-400 mb-6 max-w-md">
-              {t("footer.description", {
-                defaultValue:
-                  "A passionate developer creating modern web experiences.",
-              })}
+              {t("footer.description")}
             </p>
             <div className="flex space-x-5 rtl:space-x-reverse">
               {social.map((s) => (
@@ -63,10 +59,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">
-              {t("footer.quickLinks", { defaultValue: "Quick Links" })}
+              {t("footer.quickLinks")}
             </h4>
             <ul className="space-y-2">
               {[
@@ -88,27 +83,24 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-lg font-semibold mb-4">
-              {t("footer.contactHeading", { defaultValue: t("nav.contact") })}
+              {t("footer.contactHeading")}
             </h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <span className="font-medium">Email:</span> {t("contact.email")}
               </li>
               <li>
-                <span className="font-medium">
-                  {t("footer.phoneLabel", { defaultValue: "Phone" })}:
-                </span>{" "}
+                <span className="font-medium">{t("footer.phoneLabel")}</span>{" "}
                 {t("contact.phone")}
               </li>
-              {t("contact.location", { defaultValue: "" }) && (
+              {t("contact.location") && (
                 <li>
                   <span className="font-medium">
-                    {t("footer.locationLabel", { defaultValue: "Location" })}:
+                    {t("footer.locationLabel")}
                   </span>{" "}
-                  {t("contact.location", { defaultValue: "" })}
+                  {t("contact.location")}
                 </li>
               )}
             </ul>
@@ -116,8 +108,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-sm">
           <p>
-            &copy; {year} {t("personal.name")} ·{" "}
-            {t("footer.rights", { defaultValue: "All rights reserved." })}
+            &copy; {year} {t("personal.name")} · {t("footer.rights")}
           </p>
         </div>
       </div>

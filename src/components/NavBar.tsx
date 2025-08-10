@@ -14,7 +14,6 @@ const Navbar = () => {
     <nav className="bg-white dark:bg-gray-900 shadow-lg border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <div className="flex-shrink-0">
             <Link
               to="/"
@@ -24,7 +23,6 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8 rtl:space-x-reverse">
               <NavLink
@@ -89,7 +87,7 @@ const Navbar = () => {
                 {t("nav.contact")}
               </NavLink>
               <a
-                href="My Resume.pdf"
+                href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
@@ -99,11 +97,10 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Language Switcher, Dark Mode Toggle and Mobile menu button */}
           <div className="flex items-center space-x-4 rtl:space-x-reverse">
             <button
               onClick={toggleLang}
-              className="px-3 py-2 rounded-md text-sm font-medium border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200 transition-colors"
+              className="px-3 py-2 rounded-md text-sm font-medium border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 bg-black text-white dark:text-gray-200 transition-colors"
             >
               {current.startsWith("ar") ? "EN" : "ع"}
             </button>

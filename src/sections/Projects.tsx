@@ -2,7 +2,6 @@ import { projects } from "../data";
 import { Card } from "../components";
 import type { Project } from "../types";
 
-// ProjectsSection: Showcases Omar Tarek's portfolio projects.
 export default function ProjectsSection() {
   return (
     <section id="projects" className="py-16 bg-gray-50 dark:bg-gray-900">

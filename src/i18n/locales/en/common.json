@@ -20,9 +20,10 @@
   "about": {
     "heading": "About Me",
     "heading2": "Education",
-    "description": "Full-stack developer with experience in both frontend and backend technologies, passionate about creating efficient web applications and systems.",
-    "specialization": "I specialize in building modern web applications using React, TypeScript, Django, Spring Boot, and database management systems.",
-    "experience": "Experienced with languages including Java, Python, C++, JavaScript/TypeScript, and SQL. Proficient in frameworks like Django, Spring Boot, and modern frontend technologies.",
+    "description": "Front-End Developer with experience in both frontend and backend technologies, passionate about creating efficient web applications and systems.",
+    "specialization": "Specialized in building modern web applications using React, JavaScript/TypeScript.",
+    "experience": "With additional experience in backend development using Django, Spring Boot, Laravel.",
+    "prog": "Proficient in programming languages including Java, Python, C++, JavaScript/TypeScript, and SQL.",
     "learning": "Always eager to learn and adapt to new challenges in the ever-evolving tech landscape.",
     "education": {
       "Institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
@@ -32,10 +33,12 @@
     }
   },
   "features": {
+    "heading": "Development Expertise",
+    "blurb": "Passionate about creating efficient, scalable solutions across the full technology stack.",
     "fast_modern_title": "Full-Stack Development",
-    "fast_modern_desc": "Experienced in both frontend (React, TypeScript) and backend (Django, Spring Boot) technologies.",
+    "fast_modern_desc": "Experienced in both frontend (React with JavaScript/TypeScript) and backend (Django, Spring Boot, Laravel) technologies.",
     "responsive_title": "Database Management",
-    "responsive_desc": "Proficient in SQL, SQLite, H2, and database design for efficient data management.",
+    "responsive_desc": "Worked with SQL and database design, warehousing with ETL operations.",
     "customizable_title": "Modern Technologies",
     "customizable_desc": "Leveraging cutting-edge tools and frameworks to build scalable applications."
   },
@@ -44,15 +47,18 @@
     "phone": "01129175363",
     "location": "Giza, Egypt",
     "github": "https://github.com/DIEMOS192",
-    "linkedin": "https://www.linkedin.com/in/omartarek192/"
+    "linkedin": "https://www.linkedin.com/in/omartarek192/",
+    "options": {
+      "email": "Email Me",
+      "whatsapp": "WhatsApp"
+    }
   },
   "contactSection": {
     "heading": "Get In Touch",
-    "blurb": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, my inbox is always open.",
-    "cta": "Contact Me"
+    "blurb": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, my inbox is always open."
   },
   "footer": {
-    "description": "Full-stack developer passionate about creating modern web applications and backend systems.",
+    "description": "Front-End Developer passionate about creating modern, interactive web applications.",
     "quickLinks": "Quick Links",
     "contactHeading": "Contact Info",
     "phoneLabel": "Phone",
@@ -60,8 +66,8 @@
     "rights": "All rights reserved."
   },
   "meta": {
-    "title": "Omar Tarek | Full-Stack Developer Portfolio",
-    "description": "Portfolio showcasing projects, skills, and experience of full-stack developer Omar Tarek. Specialized in React, Django, Spring Boot, and modern web technologies."
+    "title": "Omar Tarek | Front-End Developer Portfolio",
+    "description": "Portfolio showcasing projects, skills, and experience of front-end developer Omar Tarek. Specialized in React. Worked with Django, Spring Boot, and modern web technologies."
   },
   "other": {}
 }
