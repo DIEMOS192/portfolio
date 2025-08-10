@@ -1,8 +1,11 @@
 {
-  "personal": { "name": "عمر طارق" },
+  "personal": {
+    "name": "عمر طارق",
+    "city": "حدائق الأهرام، الجيزة"
+  },
   "nav": {
     "home": "الرئيسية",
-    "about": "نبذة عني",
+    "about": "نبذة",
     "projects": "المشاريع",
     "skills": "المهارات",
     "contact": "تواصل",
@@ -10,53 +13,72 @@
   },
   "hero": {
     "title": "عمر طارق",
-    "subtitle": "مطور ويب متكامل متخصص في التقنيات الحديثة وأنظمة الخلفية.",
-    "ctaWork": "شاهد أعمالي",
+    "subtitle": "مطور واجهات أمامية متخصص في React، مع خبرة في تطوير الأنظمة الخلفية باستخدام Django، Laravel، Spring Boot، وتقنيات أخرى.",
+    "ctaWork": "عرض أعمالي",
     "ctaContact": "تواصل معي"
   },
   "about": {
-    "description": "مطور ويب متكامل مع خبرة في تقنيات الواجهة الأمامية والخلفية، شغوف بإنشاء تطبيقات وأنظمة ويب فعالة.",
-    "specialization": "أتخصص في بناء تطبيقات ويب حديثة باستخدام React، TypeScript، Django، Spring Boot، وأنظمة إدارة قواعد البيانات.",
-    "experience": "لدي خبرة مع لغات البرمجة Java، Python، C++، JavaScript/TypeScript، و SQL. ماهر في أطر العمل مثل Django، Spring Boot، والتقنيات الحديثة للواجهات الأمامية.",
-    "learning": "دائمًا متحمس لتعلم والتكيف مع التحديات الجديدة في عالم التقنية المتطور.",
+    "heading": "نبذة عني",
+    "heading2": "التعليم",
+    "description": "مطور واجهات أمامية يتمتع بخبرة في تقنيات الواجهة الأمامية والخلفية، شغوف بإنشاء تطبيقات وأنظمة ويب فعّالة.",
+    "specialization": "متخصص في بناء تطبيقات ويب حديثة باستخدام React وJavaScript/TypeScript.",
+    "experience": "لدي خبرة إضافية في تطوير الأنظمة الخلفية باستخدام Django وSpring Boot وLaravel.",
+    "prog": "أتقن لغات البرمجة Java وPython وC++ وJavaScript/TypeScript وSQL.",
+    "learning": "دائم التعلم والتأقلم مع التحديات الجديدة في بيئة التقنية المتسارعة.",
     "education": {
       "Institution": "كلية الحاسبات والذكاء الاصطناعي - جامعة القاهرة",
-      "Year": "السنة الرابعة",
-      "dept": "تكنولوجيا المعلومات",
-      "GPA": "3.26"
+      "Year": " الرابعة",
+      "YearLabel": "السنة",
+      "dept": "  نظم المعلومات",
+      "DeptLabel": "القسم",
+      "GPA": "3.26",
+      "GPALabel": " المعدل التراكمي:"
     }
   },
+  "skillsSection": {
+    "heading": "المهارات"
+  },
+  "projectsSection": {
+    "heading": "المشاريع"
+  },
   "features": {
-    "fast_modern_title": "حديث وسريع",
-    "fast_modern_desc": "مبني بـ React و TypeScript و Tailwind لتحقيق أفضل أداء.",
-    "responsive_title": "تصميم متجاوب",
-    "responsive_desc": "يبدو رائعاً على جميع الأجهزة بتصميم موجه للجوال أولاً.",
-    "customizable_title": "سهل التخصيص",
-    "customizable_desc": "مكونات منظمة يسهل تعديلها وتطويرها."
+    "heading": "مجالات الخبرة",
+    "blurb": "شغوف بتطوير حلول فعّالة وقابلة للتوسع عبر مختلف تقنيات البرمجة.",
+    "fast_modern_title": "تطوير متكامل",
+    "fast_modern_desc": "خبرة في الواجهة الأمامية (React مع JavaScript/TypeScript) والخلفية (Django، Spring Boot، Laravel).",
+    "responsive_title": "إدارة قواعد البيانات",
+    "responsive_desc": "خبرة في SQL وتصميم قواعد البيانات، ومستودعات البيانات مع عمليات الـ ETL.",
+    "customizable_title": "تقنيات حديثة",
+    "customizable_desc": "استخدام أحدث الأدوات وأطر العمل لبناء تطبيقات قابلة للتوسع."
   },
   "contact": {
     "email": "omertarek131@gmail.com",
     "phone": "01129175363",
     "location": "الجيزة، مصر",
     "github": "https://github.com/DIEMOS192",
-    "linkedin": "https://www.linkedin.com/in/omartarek192/"
+    "linkedin": "https://www.linkedin.com/in/omartarek192/",
+    "options": {
+      "email": "راسلني عبر البريد",
+      "whatsapp": "واتساب"
+    }
   },
   "contactSection": {
     "heading": "تواصل معي",
-    "blurb": "أنا متاح حالياً لفرص جديدة. سواء كان لديك سؤال أو ترغب فقط بالتحية، بريدي مفتوح دائماً.",
+    "blurb": "أنا حالياً متاح لفرص عمل جديدة. سواء كان لديك سؤال أو ترغب فقط بالتحية، بريدي مفتوح دائماً.",
     "cta": "راسلني"
   },
   "footer": {
-    "description": "مطور شغوف يصنع تجارب ويب حديثة.",
+    "description": "مطور واجهات أمامية شغوف بإنشاء تطبيقات ويب حديثة وتفاعلية.",
     "quickLinks": "روابط سريعة",
     "contactHeading": "معلومات التواصل",
-    "phoneLabel": "هاتف",
-    "locationLabel": "الموقع",
+    "phoneLabel": "الهاتف: ",
+    "locationLabel": "الموقع: ",
+    "emailLabel": "البريد الإلكتروني: ",
     "rights": "جميع الحقوق محفوظة."
   },
   "meta": {
-    "title": "عمر طارق | معرض الأعمال",
-    "description": "معرض أعمال يوضح المشاريع والمهارات والخبرة للمطور الواجهات الأمامية عمر طارق."
+    "title": "عمر طارق | معرض أعمال مطور واجهات أمامية",
+    "description": "معرض أعمال يوضح المشاريع والمهارات والخبرة للمطور عمر طارق، متخصص في React ولديه خبرة مع Django وSpring Boot وتقنيات الويب الحديثة."
   },
   "other": {}
 }

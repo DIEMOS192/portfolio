@@ -1,13 +1,15 @@
 import { skills } from "../data";
 import type { Skill } from "../types";
+import { useTranslation } from "react-i18next";
 
 // Font Awesome icon-based skills grid
 export default function SkillsSection() {
+  const { t } = useTranslation("common");
   return (
     <section id="skills" className="py-16 bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-10 text-center">
-          Skills
+          {t("skillsSection.heading")}
         </h2>
         <div className="grid gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {skills.map((s: Skill) => (

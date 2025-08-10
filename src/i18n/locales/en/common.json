@@ -27,10 +27,19 @@
     "learning": "Always eager to learn and adapt to new challenges in the ever-evolving tech landscape.",
     "education": {
       "Institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
-      "Year": "4th Year",
-      "dept": "Information Technology",
-      "GPA": "3.26"
+      "Year": " 4th Year",
+      "YearLabel": "Year",
+      "dept": " Information Systems",
+      "DeptLabel": "Department",
+      "GPA": "3.26",
+      "GPALabel": "GPA: "
     }
+  },
+  "skillsSection": {
+    "heading": "Skills"
+  },
+  "projectsSection": {
+    "heading": "Projects"
   },
   "features": {
     "heading": "Development Expertise",
@@ -61,8 +70,9 @@
     "description": "Front-End Developer passionate about creating modern, interactive web applications.",
     "quickLinks": "Quick Links",
     "contactHeading": "Contact Info",
-    "phoneLabel": "Phone",
-    "locationLabel": "Location",
+    "phoneLabel": "Phone: ",
+    "locationLabel": "Location: ",
+    "emailLabel": "Email: ",
     "rights": "All rights reserved."
   },
   "meta": {

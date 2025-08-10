@@ -46,7 +46,7 @@ export default function AboutSection() {
               {t("about.education.dept")}
             </li>
             <li>
-              <span className="font-medium">GPA: </span>
+              <span className="font-medium">{t("about.education.GPALabel")} </span>
               {t("about.education.GPA")}
             </li>
           </ul>

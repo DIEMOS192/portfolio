@@ -89,7 +89,8 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
-                <span className="font-medium">Email:</span> {t("contact.email")}
+                <span className="font-medium">{t("footer.emailLabel")}</span>{" "}
+                {t("contact.email")}
               </li>
               <li>
                 <span className="font-medium">{t("footer.phoneLabel")}</span>{" "}
