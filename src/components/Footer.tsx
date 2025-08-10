@@ -75,6 +75,10 @@ const Footer = () => {
                   <NavLink
                     to={l.to}
                     className="text-gray-400 hover:text-white transition-colors text-sm"
+                    onClick={() => {
+                      if (window.innerWidth < 768)
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
                   >
                     {l.label}
                   </NavLink>
