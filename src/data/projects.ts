@@ -27,7 +27,7 @@ export const projects: Project[] = [
     description: "A personal portfolio website built with React.",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     image: "/images/My-Portfolio.png",
-    liveUrl: "https://omar-tarek-portfolio-five.vercel.app/", 
+    liveUrl: undefined,
     githubUrl: "https://github.com/DIEMOS192/My-Portfolio",
   },
   {
@@ -79,5 +79,15 @@ export const projects: Project[] = [
     image: "/images/CPU-Schedulers-Simulator.png",
     liveUrl: undefined, // Desktop application
     githubUrl: "https://github.com/DIEMOS192/CPU-Schedulers-Simulator",
+  },
+  {
+    id: "9",
+    title: "Arcade",
+    description:
+      "A symbol arcade built with React for frontend and C++ for game logic.",
+    technologies: ["React", "C++", "WebAssembly"],
+    image: "/images/arcade.png",
+    liveUrl: undefined,
+    githubUrl: "https://github.com/DIEMOS192/symbol-arcade/tree/master",
   },
 ];

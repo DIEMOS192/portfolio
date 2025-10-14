@@ -7,6 +7,7 @@ export const skills: Skill[] = [
   { name: "Tailwind", iconClass: "fas fa-palette" }, // Palette icon for styling framework
   { name: "JavaScript", iconClass: "fab fa-js-square" },
   { name: "TypeScript", iconClass: "fas fa-file-code" }, // File-code icon
+  { name: "React.js", iconClass: "fab fa-react" },
   { name: "C++", iconClass: "fas fa-cogs" }, // Cogs icon for C++
   { name: "Python", iconClass: "fab fa-python" },
   { name: "Java", iconClass: "fab fa-java" },
