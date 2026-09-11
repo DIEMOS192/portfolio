@@ -56,7 +56,7 @@ const Navbar = () => {
                 </NavLink>
               ))}
               <a
-                href="/Resume.pdf"
+                href="/Omar_Tarek_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
@@ -122,7 +122,7 @@ const Navbar = () => {
                 </NavLink>
               ))}
               <a
-                href="/Resume.pdf"
+                href="/Omar_Tarek_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-3 py-2 rounded text-base font-medium bg-blue-600 hover:bg-blue-700 text-white transition-colors"

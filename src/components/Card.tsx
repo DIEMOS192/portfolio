@@ -1,4 +1,5 @@
 import type { Project } from "../types";
+import { useTranslation } from "react-i18next";
 
 interface CardProps extends Project {
   className?: string;
@@ -15,6 +16,7 @@ const Card: React.FC<CardProps> = ({
   className = "",
   children,
 }) => {
+  const { t } = useTranslation("common");
   return (
     <div
       className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300 max-w-md ${className}`}
@@ -43,7 +45,8 @@ const Card: React.FC<CardProps> = ({
         </div>
       )}
 
-      <div className="p-6">
+      {/* dir="auto": project copy is English-only, so keep it LTR even in the Arabic layout */}
+      <div className="p-6" dir="auto">
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           {title}
         </h3>
@@ -73,7 +76,7 @@ const Card: React.FC<CardProps> = ({
               className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors text-sm font-medium flex items-center justify-center gap-2"
             >
               <i className="fas fa-external-link-alt"></i>
-              Live Demo
+              {t("projectsSection.live")}
             </a>
           )}
           {githubUrl && (
@@ -84,7 +87,7 @@ const Card: React.FC<CardProps> = ({
               className="flex-1 border border-gray-300 dark:border-gray-600 hover:border-gray-400 dark:hover:border-gray-500 text-gray-700 dark:text-gray-300 px-4 py-2 rounded-lg transition-colors text-sm font-medium flex items-center justify-center gap-2"
             >
               <i className="fab fa-github"></i>
-              View Code
+              {t("projectsSection.code")}
             </a>
           )}
         </div>

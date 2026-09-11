@@ -21,7 +21,10 @@ export default function SkillsSection() {
                 className={`${s.iconClass} text-4xl text-blue-600 dark:text-blue-400`}
                 aria-hidden="true"
               />
-              <span className="text-sm font-medium text-gray-800 dark:text-gray-200 text-center">
+              <span
+                dir="ltr"
+                className="text-sm font-medium text-gray-800 dark:text-gray-200 text-center"
+              >
                 {s.name}
               </span>
             </div>

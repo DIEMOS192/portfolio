@@ -29,24 +29,32 @@ export default function AboutSection() {
           <ul className="space-y-2 text-gray-700 dark:text-gray-300">
             <li>
               <span className="font-medium">
-                {t("about.education.Institution")}:{" "}
+                {t("about.education.DegreeLabel")}:{" "}
+              </span>
+              {t("about.education.Degree")}
+            </li>
+            <li>
+              <span className="font-medium">
+                {t("about.education.InstitutionLabel")}:{" "}
               </span>
               {t("about.education.Institution")}
             </li>
             <li>
               <span className="font-medium">
-                {t("about.education.YearLabel")}:
+                {t("about.education.YearLabel")}:{" "}
               </span>
               {t("about.education.Year")}
             </li>
             <li>
               <span className="font-medium">
-                {t("about.education.DeptLabel")}:
+                {t("about.education.DeptLabel")}:{" "}
               </span>
               {t("about.education.dept")}
             </li>
             <li>
-              <span className="font-medium">{t("about.education.GPALabel")} </span>
+              <span className="font-medium">
+                {t("about.education.GPALabel")}{" "}
+              </span>
               {t("about.education.GPA")}
             </li>
           </ul>

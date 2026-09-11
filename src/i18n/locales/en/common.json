@@ -26,20 +26,25 @@
     "prog": "Proficient in programming languages including Java, Python, C++, JavaScript/TypeScript, and SQL.",
     "learning": "Always eager to learn and adapt to new challenges in the ever-evolving tech landscape.",
     "education": {
+      "DegreeLabel": "Degree",
+      "Degree": "B.Sc. Computer Science and Artificial Intelligence",
+      "InstitutionLabel": "Institution",
       "Institution": "Faculty of Computers and Artificial Intelligence, Cairo University",
-      "Year": " 4th Year",
-      "YearLabel": "Year",
-      "dept": " Information Systems",
+      "YearLabel": "Years",
+      "Year": "2022 – 2026",
       "DeptLabel": "Department",
-      "GPA": "3.26",
-      "GPALabel": "GPA: "
+      "dept": "Information Systems",
+      "GPALabel": "GPA:",
+      "GPA": "3.28"
     }
   },
   "skillsSection": {
     "heading": "Skills"
   },
   "projectsSection": {
-    "heading": "Projects"
+    "heading": "Projects",
+    "live": "Live Demo",
+    "code": "View Code"
   },
   "features": {
     "heading": "Development Expertise",

@@ -26,20 +26,25 @@
     "prog": "أتقن لغات البرمجة Java وPython وC++ وJavaScript/TypeScript وSQL.",
     "learning": "دائم التعلم والتأقلم مع التحديات الجديدة في بيئة التقنية المتسارعة.",
     "education": {
+      "DegreeLabel": "الدرجة العلمية",
+      "Degree": "بكالوريوس علوم الحاسب والذكاء الاصطناعي",
+      "InstitutionLabel": "الجهة",
       "Institution": "كلية الحاسبات والذكاء الاصطناعي - جامعة القاهرة",
-      "Year": " الرابعة",
-      "YearLabel": "السنة",
-      "dept": "  نظم المعلومات",
+      "YearLabel": "السنوات",
+      "Year": "2022 – 2026",
       "DeptLabel": "القسم",
-      "GPA": "3.26",
-      "GPALabel": " المعدل التراكمي:"
+      "dept": "نظم المعلومات",
+      "GPALabel": "المعدل التراكمي:",
+      "GPA": "3.28"
     }
   },
   "skillsSection": {
     "heading": "المهارات"
   },
   "projectsSection": {
-    "heading": "المشاريع"
+    "heading": "المشاريع",
+    "live": "عرض مباشر",
+    "code": "عرض الكود"
   },
   "features": {
     "heading": "مجالات الخبرة",
