@@ -22,14 +22,24 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/DIEMOS192/GamerMajlis-Front-End",
   },
   {
-    id: "1",
-    title: "ElMawso3a-Online-Library",
-    description: "A full-stack online library website built with Django.",
-    technologies: ["Django", "Python", "SQLite"],
-    image: "/images/ElMawso3a-Online-Library.png",
-    liveUrl: undefined, // Not yet deployed
-    githubUrl:
-      "https://github.com/DIEMOS192/ElMawso3a-Online-Library/tree/master",
+    id: "9",
+    title: "Arcade",
+    description:
+      "A symbol arcade built with React for frontend and C++ for game logic.",
+    technologies: ["React", "C++", "WebAssembly"],
+    image: "/images/arcade.png",
+    liveUrl: "https://symbol-arcade.vercel.app",
+    githubUrl: "https://github.com/DIEMOS192/symbol-arcade/tree/master",
+  },
+  {
+    id: "7",
+    title: "DWH-Project",
+    description:
+      "Banking data warehouse built from an OLTP source: dimensional modeling plus a full SSIS ETL pipeline, with packages scheduled and deployed for automated data synchronization.",
+    technologies: ["SSIS", "Dimensional Modeling", "ETL", "SQL Server"],
+    image: "/images/DWH-Project.png",
+    liveUrl: undefined, // Data warehouse project
+    githubUrl: "https://github.com/DIEMOS192/DWH-Project",
   },
   {
     id: "2",
@@ -42,6 +52,16 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/DIEMOS192/Learning-Management-System-LMS",
   },
   {
+    id: "1",
+    title: "ElMawso3a-Online-Library",
+    description: "A full-stack online library website built with Django.",
+    technologies: ["Django", "Python", "SQLite"],
+    image: "/images/ElMawso3a-Online-Library.png",
+    liveUrl: undefined, // Not yet deployed
+    githubUrl:
+      "https://github.com/DIEMOS192/ElMawso3a-Online-Library/tree/master",
+  },
+  {
     id: "3",
     title: "My-Portfolio",
     description: "A personal portfolio website built with React.",
@@ -49,46 +69,6 @@ export const projects: Project[] = [
     image: "/images/My-Portfolio.png",
     liveUrl: "https://omar-tarek-portfolio-five.vercel.app",
     githubUrl: "https://github.com/DIEMOS192/portfolio",
-  },
-  {
-    id: "4",
-    title: "CLI-Custom",
-    description:
-      "Java-based custom command-line interface (CLI) application simulating a file system command environment.",
-    technologies: ["Java", "CLI", "File System"],
-    image: "/images/CLI-Custom.png",
-    liveUrl: undefined, // CLI application
-    githubUrl: "https://github.com/DIEMOS192/CLI-Custom",
-  },
-  {
-    id: "5",
-    title: "Multithreaded-Parking-System-Simulation",
-    description: "A multithreaded parking system simulation built with Java.",
-    technologies: ["Java", "Multithreading", "Simulation"],
-    image: "/images/Multithreaded-Parking-System-Simulation.png",
-    liveUrl: undefined, // Desktop application
-    githubUrl:
-      "https://github.com/DIEMOS192/Multithreaded-Parking-System-Simulation",
-  },
-  {
-    id: "6",
-    title: "University-Library-System",
-    description: "A university library system built with Python.",
-    technologies: ["Python", "Tkinter", "Pyodbc", "SQL Server"],
-    image: "/images/University-Library-System.png",
-    liveUrl: undefined, // Desktop application
-    githubUrl: "https://github.com/DIEMOS192/University-Library-System",
-  },
-
-  {
-    id: "7",
-    title: "DWH-Project",
-    description:
-      "Banking data warehouse built from an OLTP source: dimensional modeling plus a full SSIS ETL pipeline, with packages scheduled and deployed for automated data synchronization.",
-    technologies: ["SSIS", "Dimensional Modeling", "ETL", "SQL Server"],
-    image: "/images/DWH-Project.png",
-    liveUrl: undefined, // Data warehouse project
-    githubUrl: "https://github.com/DIEMOS192/DWH-Project",
   },
   {
     id: "8",
@@ -101,13 +81,32 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/DIEMOS192/CPU-Schedulers-Simulator",
   },
   {
-    id: "9",
-    title: "Arcade",
+    id: "5",
+    title: "Multithreaded-Parking-System-Simulation",
+    description: "A multithreaded parking system simulation built with Java.",
+    technologies: ["Java", "Multithreading", "Simulation"],
+    image: "/images/Multithreaded-Parking-System-Simulation.png",
+    liveUrl: undefined, // Desktop application
+    githubUrl:
+      "https://github.com/DIEMOS192/Multithreaded-Parking-System-Simulation",
+  },
+  {
+    id: "4",
+    title: "CLI-Custom",
     description:
-      "A symbol arcade built with React for frontend and C++ for game logic.",
-    technologies: ["React", "C++", "WebAssembly"],
-    image: "/images/arcade.png",
-    liveUrl: "https://symbol-arcade.vercel.app",
-    githubUrl: "https://github.com/DIEMOS192/symbol-arcade/tree/master",
+      "Java-based custom command-line interface (CLI) application simulating a file system command environment.",
+    technologies: ["Java", "CLI", "File System"],
+    image: "/images/CLI-Custom.png",
+    liveUrl: undefined, // CLI application
+    githubUrl: "https://github.com/DIEMOS192/CLI-Custom",
+  },
+  {
+    id: "6",
+    title: "University-Library-System",
+    description: "A university library system built with Python.",
+    technologies: ["Python", "Tkinter", "Pyodbc", "SQL Server"],
+    image: "/images/University-Library-System.png",
+    liveUrl: undefined, // Desktop application
+    githubUrl: "https://github.com/DIEMOS192/University-Library-System",
   },
 ];
