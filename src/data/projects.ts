@@ -18,8 +18,8 @@ export const projects: Project[] = [
       "Frontend for a gaming community platform: clip and discussion posting, event and tournament organization, an AI chatbot guide, a marketplace, direct messaging, and Discord integration.",
     technologies: ["React", "Vite", "TypeScript"],
     image: "/images/GamerMajlis.webp",
-    liveUrl: undefined,
-    githubUrl: "https://github.com/DIEMOS192/GamerMajlis-Front-End",
+    liveUrl: "https://gamer-majlis-one.vercel.app",
+    githubUrl: "https://github.com/GamerMajlis-platform/frontend-react",
   },
   {
     id: "9",
@@ -28,8 +28,8 @@ export const projects: Project[] = [
       "A symbol arcade built with React for frontend and C++ for game logic.",
     technologies: ["React", "C++", "WebAssembly"],
     image: "/images/arcade.png",
-    liveUrl: "https://symbol-arcade.vercel.app",
-    githubUrl: "https://github.com/DIEMOS192/symbol-arcade/tree/master",
+    liveUrl: "https://diemos192.github.io/symbol-arcade/",
+    githubUrl: "https://github.com/DIEMOS192/symbol-arcade",
   },
   {
     id: "7",
