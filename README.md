@@ -109,4 +109,4 @@ MIT
 
 **Made with ❤️ by Omar Tarek**
 
-Deployed at: [https://omar-tarek-portfolio-five.vercel.app/](https://omar-tarek-portfolio-five.vercel.app/)
+Deployed at: [https://omartarek-portfolio.vercel.app/](https://omartarek-portfolio.vercel.app/)
