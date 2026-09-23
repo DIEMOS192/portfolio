@@ -52,16 +52,6 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/DIEMOS192/Learning-Management-System-LMS",
   },
   {
-    id: "1",
-    title: "ElMawso3a-Online-Library",
-    description: "A full-stack online library website built with Django.",
-    technologies: ["Django", "Python", "SQLite"],
-    image: "/images/ElMawso3a-Online-Library.png",
-    liveUrl: undefined, // Not yet deployed
-    githubUrl:
-      "https://github.com/DIEMOS192/ElMawso3a-Online-Library/tree/master",
-  },
-  {
     id: "3",
     title: "My-Portfolio",
     description: "A personal portfolio website built with React.",
@@ -69,44 +59,5 @@ export const projects: Project[] = [
     image: "/images/My-Portfolio.png",
     liveUrl: undefined, // You are already here
     githubUrl: "https://github.com/DIEMOS192/portfolio",
-  },
-  {
-    id: "8",
-    title: "CPU-Schedulers-Simulator",
-    description:
-      "Project that simulates CPU scheduling algorithms built with Java, JavaFX for GUI.",
-    technologies: ["Java", "JavaFX", "CPU Scheduling"],
-    image: "/images/CPU-Schedulers-Simulator.png",
-    liveUrl: undefined, // Desktop application
-    githubUrl: "https://github.com/DIEMOS192/CPU-Schedulers-Simulator",
-  },
-  {
-    id: "5",
-    title: "Multithreaded-Parking-System-Simulation",
-    description: "A multithreaded parking system simulation built with Java.",
-    technologies: ["Java", "Multithreading", "Simulation"],
-    image: "/images/Multithreaded-Parking-System-Simulation.png",
-    liveUrl: undefined, // Desktop application
-    githubUrl:
-      "https://github.com/DIEMOS192/Multithreaded-Parking-System-Simulation",
-  },
-  {
-    id: "4",
-    title: "CLI-Custom",
-    description:
-      "Java-based custom command-line interface (CLI) application simulating a file system command environment.",
-    technologies: ["Java", "CLI", "File System"],
-    image: "/images/CLI-Custom.png",
-    liveUrl: undefined, // CLI application
-    githubUrl: "https://github.com/DIEMOS192/CLI-Custom",
-  },
-  {
-    id: "6",
-    title: "University-Library-System",
-    description: "A university library system built with Python.",
-    technologies: ["Python", "Tkinter", "Pyodbc", "SQL Server"],
-    image: "/images/University-Library-System.png",
-    liveUrl: undefined, // Desktop application
-    githubUrl: "https://github.com/DIEMOS192/University-Library-System",
   },
 ];
