@@ -5,6 +5,7 @@ import {
   HeroSection,
   AboutSection,
   ProjectsSection,
+  ExperienceSection,
   SkillsSection,
   ContactSection,
   FeaturesSection,
@@ -27,6 +28,7 @@ export default function App() {
           }
         />
         <Route path="about" element={<AboutSection />} />
+        <Route path="experience" element={<ExperienceSection />} />
         <Route path="projects" element={<ProjectsSection />} />
         <Route path="skills" element={<SkillsSection />} />
         <Route path="contact" element={<ContactSection />} />

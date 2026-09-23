@@ -1,29 +1,24 @@
 import type { Experience } from "../types";
-// Just a placeholder for now
+
 export const experience: Experience[] = [
   {
-    id: "1",
-    company: "Tech Company Inc.",
-    position: "Frontend Developer",
-    duration: "Jan 2023 - Present",
+    id: "egronx",
+    company: "EgronX",
+    position: "Frontend Developer (React) · Internship",
+    duration: "Summer 2025",
     description: [
-      "Developed and maintained React applications serving 10k+ users",
-      "Implemented responsive designs using Tailwind CSS and modern CSS techniques",
-      "Collaborated with design team to create pixel-perfect UI components",
-      "Optimized application performance resulting in 40% faster load times",
+      "Built the frontend for GamerMajlis, a gaming community platform, on a six-person team working Agile sprints in Jira.",
+      "Implemented clip and discussion posting, events and tournaments, a marketplace, direct messaging, and Discord OAuth login.",
+      "Added Arabic/English localization with full RTL support using react-i18next.",
+      "Built a shared component system reused across the Events, Tournaments, Marketplace, Messages and Profile pages.",
     ],
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Git"],
-  },
-  {
-    id: "2",
-    company: "Digital Agency",
-    position: "Junior Web Developer",
-    duration: "Jun 2022 - Dec 2022",
-    description: [
-      "Built responsive websites for various clients using HTML, CSS, and JavaScript",
-      "Worked with WordPress and custom CMS solutions",
-      "Participated in code reviews and agile development processes",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "i18next",
+      "Discord OAuth",
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP"],
   },
 ];

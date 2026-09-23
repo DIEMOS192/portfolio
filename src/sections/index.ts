@@ -5,3 +5,4 @@ export { default as ProjectsSection } from "./Projects";
 export { default as SkillsSection } from "./Skills";
 export { default as ContactSection } from "./Contact";
 export { default as FeaturesSection } from "./Features";
+export { default as ExperienceSection } from "./Experience";
