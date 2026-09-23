@@ -74,7 +74,7 @@ const doc = new Document({
         run("Data Structures, Algorithms, Object Oriented Programming, Advanced Software Engineering, Database Management, Data Warehouses, Web Design, Big Data, Data Mining", { size: 9.5 })] }),
 
       heading("EXPERIENCE"),
-      entry("Frontend Developer (React), EgronX — Internship", { text: "Summer 2025   |   React, Vite, Tailwind CSS, i18next" }),
+      entry("Frontend Developer (React), EgronX — Internship", { text: "Aug 2025 – Oct 2025   |   React, Vite, Tailwind CSS, i18next" }),
       bullet("Built the frontend for GamerMajlis, a gaming community platform, on a six-person team working Agile sprints in Jira."),
       bullet("Implemented clip and discussion posting, event and tournament organization, an AI chatbot guide, a marketplace, direct messaging, and Discord integration."),
       bullet("Implemented Arabic/English localization with RTL layout support (i18next) and a shared component system reused across the Events, Tournaments, Marketplace, Messages, and Profile pages."),

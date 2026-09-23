@@ -5,7 +5,7 @@ export const experience: Experience[] = [
     id: "egronx",
     company: "EgronX",
     position: "Frontend Developer (React) · Internship",
-    duration: "Summer 2025",
+    duration: "Aug 2025 – Oct 2025",
     description: [
       "Built the frontend for GamerMajlis, a gaming community platform, on a six-person team working Agile sprints in Jira.",
       "Implemented clip and discussion posting, events and tournaments, a marketplace, direct messaging, and Discord OAuth login.",
